@@ -2,7 +2,7 @@
 def selection_sort(arr):
     # loop through n-1 elements
     # HELP n -1 wasn't working, but n is!!!???
-    for i in range(0, len(arr)):
+    for i in range(0, len(arr) - 1):
         # cur_index = i
         smallest_index = i
         # TO-DO: find next smallest element
